@@ -8,6 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+     int x, y, vy, v;
+
+     
+}
+
+@property (weak, nonatomic) IBOutlet UIImageView *stickman;
+- (IBAction)jump:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *line;
+@property (strong) NSTimer *timer;
+@property (weak, nonatomic) IBOutlet UIImageView *hole;
+
+
+
+
+
 
 @end

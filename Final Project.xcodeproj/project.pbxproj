@@ -21,6 +21,9 @@
 		3F7D587515B6365500C73D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7D585315B6365500C73D20 /* Foundation.framework */; };
 		3F7D587D15B6365500C73D20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D587B15B6365500C73D20 /* InfoPlist.strings */; };
 		3F7D588015B6365500C73D20 /* Final_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D587F15B6365500C73D20 /* Final_ProjectTests.m */; };
+		3F80DCD715B71C4F00CDD4D9 /* stickman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DCD615B71C4F00CDD4D9 /* stickman.jpg */; };
+		3F80DCE515B768CC00CDD4D9 /* Screen Shot 2012-07-18 at 2.57.10 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DCE415B768CC00CDD4D9 /* Screen Shot 2012-07-18 at 2.57.10 PM.png */; };
+		3F80DCE715B7695B00CDD4D9 /* 6a00e551add65488340168e5e001a4970c-800wi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F80DCE615B7695B00CDD4D9 /* 6a00e551add65488340168e5e001a4970c-800wi.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +41,25 @@
 		3F7D585115B6365500C73D20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F7D585315B6365500C73D20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F7D585515B6365500C73D20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F7D585915B6365500C73D20 /* Final Project-Info.plist */ = {isa = PBXFileReference; path = "Final Project-Info.plist"; sourceTree = "<group>"; };
+		3F7D585915B6365500C73D20 /* Final Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Final Project-Info.plist"; sourceTree = "<group>"; };
 		3F7D585B15B6365500C73D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F7D585D15B6365500C73D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F7D585F15B6365500C73D20 /* Final Project-Prefix.pch */ = {isa = PBXFileReference; path = "Final Project-Prefix.pch"; sourceTree = "<group>"; };
-		3F7D586015B6365500C73D20 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7D585F15B6365500C73D20 /* Final Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Final Project-Prefix.pch"; sourceTree = "<group>"; };
+		3F7D586015B6365500C73D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F7D586115B6365500C73D20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F7D586415B6365500C73D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3F7D586715B6365500C73D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3F7D586915B6365500C73D20 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3F7D586915B6365500C73D20 /* ViewController.h */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F7D586A15B6365500C73D20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F7D587115B6365500C73D20 /* Final ProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7D587215B6365500C73D20 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3F7D587A15B6365500C73D20 /* Final ProjectTests-Info.plist */ = {isa = PBXFileReference; path = "Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
+		3F7D587A15B6365500C73D20 /* Final ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3F7D587C15B6365500C73D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F7D587E15B6365500C73D20 /* Final_ProjectTests.h */ = {isa = PBXFileReference; path = Final_ProjectTests.h; sourceTree = "<group>"; };
+		3F7D587E15B6365500C73D20 /* Final_ProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Final_ProjectTests.h; sourceTree = "<group>"; };
 		3F7D587F15B6365500C73D20 /* Final_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Final_ProjectTests.m; sourceTree = "<group>"; };
+		3F80DCD615B71C4F00CDD4D9 /* stickman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stickman.jpg; sourceTree = "<group>"; };
+		3F80DCE415B768CC00CDD4D9 /* Screen Shot 2012-07-18 at 2.57.10 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-07-18 at 2.57.10 PM.png"; sourceTree = "<group>"; };
+		3F80DCE615B7695B00CDD4D9 /* 6a00e551add65488340168e5e001a4970c-800wi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6a00e551add65488340168e5e001a4970c-800wi.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,9 @@
 				3F7D586615B6365500C73D20 /* MainStoryboard_iPad.storyboard */,
 				3F7D586915B6365500C73D20 /* ViewController.h */,
 				3F7D586A15B6365500C73D20 /* ViewController.m */,
+				3F80DCE615B7695B00CDD4D9 /* 6a00e551add65488340168e5e001a4970c-800wi.jpeg */,
+				3F80DCD615B71C4F00CDD4D9 /* stickman.jpg */,
+				3F80DCE415B768CC00CDD4D9 /* Screen Shot 2012-07-18 at 2.57.10 PM.png */,
 				3F7D585815B6365500C73D20 /* Supporting Files */,
 			);
 			path = "Final Project";
@@ -227,6 +236,9 @@
 				3F7D585C15B6365500C73D20 /* InfoPlist.strings in Resources */,
 				3F7D586515B6365500C73D20 /* MainStoryboard_iPhone.storyboard in Resources */,
 				3F7D586815B6365500C73D20 /* MainStoryboard_iPad.storyboard in Resources */,
+				3F80DCD715B71C4F00CDD4D9 /* stickman.jpg in Resources */,
+				3F80DCE515B768CC00CDD4D9 /* Screen Shot 2012-07-18 at 2.57.10 PM.png in Resources */,
+				3F80DCE715B7695B00CDD4D9 /* 6a00e551add65488340168e5e001a4970c-800wi.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +455,7 @@
 				3F7D588515B6365500C73D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F7D588615B6365500C73D20 /* Build configuration list for PBXNativeTarget "Final ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +464,7 @@
 				3F7D588815B6365500C73D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
